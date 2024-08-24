@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificado e decodificador</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/codi.png" type="image/x-icon">
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="assets/mago.png" alt="mago">
+            <h1>Mensagens codificadas</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui"></textarea>
+                <p>ATENÇÃO: apenas letras minúsculas e sem caracteres especiais</p>
+            </div>    
+
+            <div id="output">
+                <img src="assets/mago_fogo.png" alt="mago soltando fogo">
+            <h2>Sua mensagem aparecerá aqui!!!</h2>
+            <span>Digite um texto que deseje criptografar ou descriptografar.</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+   
+
+
+
+    <script src="interacao/script.js"></script>
+</body>
+</html>
